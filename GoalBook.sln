@@ -3,10 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.808.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalBook.SharedKernel", "GoalBook.SharedKernel\GoalBook.SharedKernel.csproj", "{CA14ABFB-30A0-4BF2-8D37-601D5E9972BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalBook.Core", "GoalBook.Core\GoalBook.Core.csproj", "{F1E58234-AACE-447A-B696-9491F02CBF10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalBook.Infrastructure", "GoalBook.Infrastructure\GoalBook.Infrastructure.csproj", "{C7FB810D-6EC6-471E-B5BD-4C77E4D37303}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA14ABFB-30A0-4BF2-8D37-601D5E9972BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA14ABFB-30A0-4BF2-8D37-601D5E9972BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA14ABFB-30A0-4BF2-8D37-601D5E9972BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA14ABFB-30A0-4BF2-8D37-601D5E9972BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E58234-AACE-447A-B696-9491F02CBF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E58234-AACE-447A-B696-9491F02CBF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E58234-AACE-447A-B696-9491F02CBF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E58234-AACE-447A-B696-9491F02CBF10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FB810D-6EC6-471E-B5BD-4C77E4D37303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FB810D-6EC6-471E-B5BD-4C77E4D37303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FB810D-6EC6-471E-B5BD-4C77E4D37303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FB810D-6EC6-471E-B5BD-4C77E4D37303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
