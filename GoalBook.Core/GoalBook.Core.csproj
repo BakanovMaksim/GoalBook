@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\" />
+    <Folder Include="Domain\Entities\" />
+    <Folder Include="Domain\Builders\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GoalBook.SharedKernel\GoalBook.SharedKernel.csproj" />
+  </ItemGroup>
+</Project>

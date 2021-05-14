@@ -1,0 +1,41 @@
+﻿<Properties GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.ItemProperties.GoalBook.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GoalBook.Infrastructure/Data/Repositories/GoolRepository.cs">
+    <Files>
+      <File FileName="GoalBook.Infrastructure/Data/GoalBookContext.cs" Line="1" Column="1" />
+      <File FileName="GoalBook.Infrastructure/Data/Repositories/GoolRepository.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GoalBook" expanded="True">
+            <Node name="GoalBook.Core" expanded="True">
+              <Node name="Domain" expanded="True" />
+            </Node>
+            <Node name="GoalBook.Infrastructure" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="Repositories" expanded="True">
+                  <Node name="GoolRepository.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="GoalBook.SharedKernel" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="GoalBook" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GoalBook.SharedKernel FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GoalBook.Core FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
