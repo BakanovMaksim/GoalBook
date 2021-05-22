@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "GoalBook.Core/1.0.0": {
+        "dependencies": {
+          "GoalBook.SharedKernel": "1.0.0"
+        },
+        "runtime": {
+          "GoalBook.Core.dll": {}
+        }
+      },
+      "GoalBook.SharedKernel/1.0.0": {
+        "runtime": {
+          "GoalBook.SharedKernel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GoalBook.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GoalBook.SharedKernel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

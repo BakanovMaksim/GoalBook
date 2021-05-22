@@ -20,6 +20,17 @@ namespace GoalBook.Core.Domain.Builders
         }
 
         /// <summary>
+        /// Присваивает идентификатор.
+        /// </summary>
+        /// <param name="id"> Параметр идентификатор. </param>
+        /// <returns> Объект строителя. </returns>
+        public GoalBuilder SetId(Guid id)
+        {
+            _goal.Id = id;
+            return this;
+        }
+
+        /// <summary>
         /// Присваивает наименование.
         /// </summary>
         /// <param name="title"> Параметр наименование. </param>
@@ -75,6 +86,11 @@ namespace GoalBook.Core.Domain.Builders
         /// <returns> Цель. </returns>
         public Goal Build()
         {
+            if (_goal.Id == default)
+            {
+                _goal.Id = Guid.NewGuid();
+            }
+
             return _goal;
         }
     }

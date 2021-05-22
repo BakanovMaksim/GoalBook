@@ -1,0 +1,12 @@
+/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/bin/Debug/net5.0/GoalBook.SharedKernel.deps.json
+/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/bin/Debug/net5.0/GoalBook.SharedKernel.dll
+/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/bin/Debug/net5.0/ref/GoalBook.SharedKernel.dll
+/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/bin/Debug/net5.0/GoalBook.SharedKernel.pdb
+/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/obj/Debug/net5.0/GoalBook.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/obj/Debug/net5.0/GoalBook.SharedKernel.AssemblyInfoInputs.cache
+/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/obj/Debug/net5.0/GoalBook.SharedKernel.AssemblyInfo.cs
+/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/obj/Debug/net5.0/GoalBook.SharedKernel.csproj.CoreCompileInputs.cache
+/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/obj/Debug/net5.0/GoalBook.SharedKernel.dll
+/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/obj/Debug/net5.0/ref/GoalBook.SharedKernel.dll
+/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/obj/Debug/net5.0/GoalBook.SharedKernel.pdb
+/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/obj/Debug/net5.0/GoalBook.SharedKernel.csprojAssemblyReference.cache

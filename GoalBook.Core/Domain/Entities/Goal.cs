@@ -34,5 +34,25 @@ namespace GoalBook.Core.Domain.Entities
         {
             return new GoalBuilder();
         }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        public override bool Equals(object obj)
+        {
+            var goal = obj as Goal;
+
+            if (goal == null)
+            {
+                return false;
+            }
+
+            return (Title == goal.Title)
+                && (Description == goal.Description)
+                && (DateCreated == goal.DateCreated)
+                && (DateFinished == goal.DateFinished);
+        }
     }
 }

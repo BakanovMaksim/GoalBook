@@ -12,7 +12,7 @@ namespace GoalBook.Infrastructure.Data
         /// <summary>
         /// Таблица цели.
         /// </summary>
-        public DbSet<Goal> Goals { get; set; }
+        public DbSet<Goal> Goal { get; set; }
 
         /// <summary>
         /// Инициализирует подключение.

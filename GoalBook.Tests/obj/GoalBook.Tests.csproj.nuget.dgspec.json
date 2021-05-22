@@ -1,0 +1,342 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Tests/GoalBook.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Api/GoalBook.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Api/GoalBook.Api.csproj",
+        "projectName": "GoalBook.Api",
+        "projectPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Api/GoalBook.Api.csproj",
+        "packagesPath": "/Users/maksimbakanov/.nuget/packages/",
+        "outputPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maksimbakanov/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Infrastructure/GoalBook.Infrastructure.csproj": {
+                "projectPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Infrastructure/GoalBook.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Core/GoalBook.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Core/GoalBook.Core.csproj",
+        "projectName": "GoalBook.Core",
+        "projectPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Core/GoalBook.Core.csproj",
+        "packagesPath": "/Users/maksimbakanov/.nuget/packages/",
+        "outputPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maksimbakanov/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/GoalBook.SharedKernel.csproj": {
+                "projectPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/GoalBook.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Infrastructure/GoalBook.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Infrastructure/GoalBook.Infrastructure.csproj",
+        "projectName": "GoalBook.Infrastructure",
+        "projectPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Infrastructure/GoalBook.Infrastructure.csproj",
+        "packagesPath": "/Users/maksimbakanov/.nuget/packages/",
+        "outputPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maksimbakanov/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Core/GoalBook.Core.csproj": {
+                "projectPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Core/GoalBook.Core.csproj"
+              },
+              "/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/GoalBook.SharedKernel.csproj": {
+                "projectPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/GoalBook.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/GoalBook.SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/GoalBook.SharedKernel.csproj",
+        "projectName": "GoalBook.SharedKernel",
+        "projectPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/GoalBook.SharedKernel.csproj",
+        "packagesPath": "/Users/maksimbakanov/.nuget/packages/",
+        "outputPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.SharedKernel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maksimbakanov/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Tests/GoalBook.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Tests/GoalBook.Tests.csproj",
+        "projectName": "GoalBook.Tests",
+        "projectPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Tests/GoalBook.Tests.csproj",
+        "packagesPath": "/Users/maksimbakanov/.nuget/packages/",
+        "outputPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maksimbakanov/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Api/GoalBook.Api.csproj": {
+                "projectPath": "/Users/maksimbakanov/Projects/GoalBook/GoalBook.Api/GoalBook.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
