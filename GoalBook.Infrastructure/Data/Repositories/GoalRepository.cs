@@ -12,7 +12,7 @@ namespace GoalBook.Infrastructure.Data.Repositories
     /// <summary>
     /// Предоставляет взаимодействие с таблицей цели.
     /// </summary>
-    public class GoolRepository : IRepository<Goal>
+    public class GoalRepository : IRepository<Goal>, IDisposable
     {
         private readonly GoalBookContext _context;
 
@@ -20,7 +20,7 @@ namespace GoalBook.Infrastructure.Data.Repositories
         /// Инициализирует поля.
         /// </summary>
         /// <param name="context"> Параметр контекст базы данных. </param>
-        public GoolRepository(GoalBookContext context)
+        public GoalRepository(GoalBookContext context)
         {
             if (context == null)
             {
@@ -37,7 +37,7 @@ namespace GoalBook.Infrastructure.Data.Repositories
         public IEnumerable<Goal> GetAll()
         {
             return _context
-                .Goals
+                .Goal
                 .AsNoTracking();
         }
 
@@ -49,7 +49,7 @@ namespace GoalBook.Infrastructure.Data.Repositories
         public async Task<Goal> GetByIdAsync(Guid id)
         {
             return await _context
-                .Goals
+                .Goal
                 .FindAsync(id);
         }
 
@@ -65,7 +65,7 @@ namespace GoalBook.Infrastructure.Data.Repositories
                 throw new ArgumentNullException("Передана пустая ссылка.", nameof(record));
             }
 
-            await _context.Goals.AddAsync(record);
+            await _context.Goal.AddAsync(record);
             await _context.SaveChangesAsync();
         }
 
@@ -86,7 +86,7 @@ namespace GoalBook.Infrastructure.Data.Repositories
                 return false;
             }
 
-            _context.Goals.Update(record);
+            _context.Goal.Update(record);
             await _context.SaveChangesAsync();
 
             return true;
@@ -106,10 +106,15 @@ namespace GoalBook.Infrastructure.Data.Repositories
                 return false;
             }
 
-            _context.Goals.Remove(goal);
+            _context.Goal.Remove(goal);
             await _context.SaveChangesAsync();
 
             return true;
+        }
+
+        public void Dispose()
+        {
+            _context.Dispose();
         }
     }
 }
